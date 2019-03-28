@@ -10,3 +10,5 @@ sleep(0.5)
 led.on()
 sleep(1.5)
 led.off()
+
+break
