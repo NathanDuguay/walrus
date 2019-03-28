@@ -12,7 +12,7 @@ for letter in mot:
 
     else:
 
-        pyFile = letter.upper + ".py"
+        pyFile = letter.upper() + ".py"
 
         exec(open(pyFile).read())
 
