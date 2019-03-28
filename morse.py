@@ -2,6 +2,8 @@ from gpiozero import LED
 from time import sleep
 import re
 
+led =  LED(17)
+
 mot = input("Que voulez-vous dire?")
 
 for letter in mot:
