@@ -1,15 +1,15 @@
 from gpiozero import LED
 from time import sleep
 
-r.on()
+led.on()
 sleep(0.5)
-r.off()
+led.off()
 sleep(0.5)
-r.on()
+led.on()
 sleep(1.5)
-r.off()
+led.off()
 sleep(0.5)
-r.on()
+led.on()
 sleep(0.5)
-r.off()
+led.off()
 sleep(1.5)
