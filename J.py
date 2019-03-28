@@ -1,8 +1,6 @@
 from gpiozero import LED
 from time import sleep
 
-j = LED(17)
-
 j.on()
 sleep(0.5)
 j.off()
